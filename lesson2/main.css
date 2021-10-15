@@ -15,7 +15,8 @@ img {
     border: 1px solid black;
     padding: 20px;
 }
-.kart{
+
+.kart {
     width: 400px;
     background-color: grey;
     padding: 20px;
@@ -23,7 +24,8 @@ img {
     color: white;
     border-top-right-radius: 10px;
 }
-.par{
+
+.par {
     width: 1000px;
     background-color: #fcfcfc;
     margin: 10px;
@@ -31,14 +33,17 @@ img {
     padding: 20px;
     border: 1px solid grey;
 }
-span:hover{
+
+span:hover {
     background-color: olive;
     font-size: 20px;
 }
-span{
+
+span {
     background: cadetblue;
     color: white;
 }
-img:hover{
-   border: 5px solid white;
+
+img:hover {
+    border: 5px solid white;
 }
