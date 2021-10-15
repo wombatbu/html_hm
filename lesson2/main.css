@@ -1,0 +1,44 @@
+.all {
+    display: flex;
+}
+
+img {
+    width: 300px;
+    height: 430px;
+}
+
+.spysok {
+    width: 500px;
+    height: 200px;
+    background: whitesmoke;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.kart{
+    width: 400px;
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    border-top-right-radius: 10px;
+}
+.par{
+    width: 1000px;
+    background-color: #fcfcfc;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid grey;
+}
+span:hover{
+    background-color: olive;
+    font-size: 20px;
+}
+span{
+    background: cadetblue;
+    color: white;
+}
+img:hover{
+   border: 5px solid white;
+}
