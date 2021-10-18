@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.first {
+    height: 400px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding: 20px;
+    background: url("https://media.wired.com/photos/60abf2c7f83409ce52d3c67f/master/pass/Science_forest_1167053895.jpg");
+    background-position: center;
+}
+
+.firstone {
+    border: 1px solid black;
+    width: 500px;
+    height: 80px;
+    margin-left: 800px;
+    padding: 35px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.spanone {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+.second {
+    height: 70px;
+    background: black;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.spantwo {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.third {
+    height: 450px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.thirdone {
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+
+.thirdtwo {
+    background: grey;
+    width: 400px;
+    height: 200px;
+    background: url("https://images.ctfassets.net/hrltx12pl8hq/6TOyJZTDnuutGpSMYcFlfZ/4dfab047c1d94bbefb0f9325c54e08a2/01-nature_668593321.jpg?fit=fill&w=480&h=270");
+    background-position: center;
+}
+
+p {
+    margin: 30px;
+}
+
+.button {
+    box-sizing: border-box;
+    background: dimgray;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.fourth {
+    background: #6963a4;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+span {
+    margin-left: 400px;
+    color: white;
+}
+
+ul {
+    margin-right: 600px;
+    list-style: none;
+    font-size: 18px;
+}
+
