@@ -13,28 +13,30 @@
     }
 
     .main {
-        height: 500px;
+        /*height: 500px;*/
         width: 600px;
-        background: black;
+        /*background: black;*/
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
     #menu {
-        width: 200px;
+        width: 30%;
         height: 500px;
         background: #6963a4;
     }
 
+    .post {
+        width: 70%;
+    }
+
     .post1 {
-        width: 400px;
         height: 250px;
         background: chocolate;
     }
 
     .post2 {
-        width: 400px;
         height: 250px;
         background: bisque;
     }
@@ -47,12 +49,14 @@
     }
 </style>
 <body>
-<div id="header"></div>
+<div id="header">header</div>
 <div class="main">
-    <div id="menu"></div>
-    <div class="post1"></div>
-    <div class="post2"></div>
+    <div id="menu">menu</div>
+    <div class="post">
+        <div class="post1">post1</div>
+        <div class="post2">post2</div>
+    </div>
 </div>
-<div id="footer"></div>
+<div id="footer">footer</div>
 </body>
 </html>
