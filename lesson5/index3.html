@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson4.2</title>
+</head>
+<style>
+    .wrap {
+        width: 800px;
+        background: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        height: 150px;
+        background: #6963a4;
+    }
+
+    .nav {
+        height: 100px;
+        background: bisque;
+    }
+
+    .main {
+        width: 70%;
+        background: olive;
+    }
+
+    .aside {
+        width: 30%;
+        background: darkkhaki;
+    }
+
+    .footer {
+        height: 100px;
+        background: green;
+    }
+
+    .width100 {
+        width: 100%;
+    }
+
+    .height450 {
+        height: 450px;
+    }
+
+    .text-c {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+<div class="wrap">
+    <div class="header width100 text-c">header</div>
+    <div class="nav width100 text-c">nav</div>
+    <div class="main height450 text-c">main</div>
+    <div class="aside height450 text-c">aside</div>
+    <div class="footer width100 text-c">footer</div>
+</div>
+</body>
+</html>

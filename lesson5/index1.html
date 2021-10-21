@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson4.2.1</title>
+</head>
+<style>
+    .header {
+        margin-bottom: 5px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        width: 30%;
+        background: #6963a4;
+    }
+
+    .post {
+        width: 70%;
+    }
+
+    .post1 {
+        background: chocolate;
+    }
+
+    .post2 {
+        background: bisque;
+    }
+
+    .footer {
+        margin-top: 5px;
+    }
+
+    .height100 {
+        height: 100px;
+        background: cadetblue;
+    }
+
+    .width600 {
+        width: 600px;
+    }
+
+    .height500 {
+        height: 500px;
+    }
+
+    .height50 {
+        height: 50%;
+    }
+
+    .text-c {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+<div class="header height100 width600 text-c">header</div>
+<div class="main width600">
+    <div class="menu height500 text-c">menu</div>
+    <div class="post height500">
+        <div class="post1 height50 text-c">post1</div>
+        <div class="post2 height50 text-c">post2</div>
+    </div>
+</div>
+<div class="footer height100 width600 text-c">footer</div>
+</body>
+</html>
