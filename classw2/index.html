@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>classw2.1</title>
+</head>
+<style>
+    .wrap {
+        margin: 0 auto;
+        width: 1000px;
+        background: aliceblue;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .box {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        background: royalblue;
+    }
+
+    .circle {
+        border-radius: 50%;
+        background: aliceblue;
+    }
+
+    .header {
+        width: 80%;
+        border: 2px solid lightblue;
+        border-radius: 30px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .header__title {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .header__elements {
+        justify-content: space-around;
+    }
+
+    .footer {
+        width: 100%;
+        background: royalblue;
+        margin: 30px 0;
+        justify-content: center;
+    }
+
+    .footer_elements {
+        width: 75%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 60px;
+    }
+
+    .footer__elements_and-text {
+        /*background: darkgoldenrod;*/
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+
+    .header__elements_and-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+</style>
+<body>
+<div class="wrap d-flex">
+    <div class="header d-flex">
+        <div class="header__title d-flex">
+            <p>SOME TEXT</p>
+        </div>
+        <div class="header__elements d-flex">
+            <div class="header__elements_and-text d-flex">
+                <div class="box"></div>
+                <p>some text</p>
+            </div>
+            <div class="header__elements_and-text d-flex">
+                <div class="box"></div>
+                <p>some text</p>
+            </div>
+            <div class="header__elements_and-text d-flex">
+                <div class="box"></div>
+                <p>some text</p>
+            </div>
+            <div class="header__elements_and-text">
+                <div class="box"></div>
+                <p>some text</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer d-flex">
+        <div class="footer_elements d-flex">
+            <div class="footer__elements_and-text d-flex">
+                <div class="box circle"></div>
+                <p>some text</p>
+            </div>
+            <div class="footer__elements_and-text d-flex">
+                <div class="box circle"></div>
+                <p>some text</p>
+            </div>
+            <div class="footer__elements_and-text d-flex">
+                <div class="box circle"></div>
+                <p>some text</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
