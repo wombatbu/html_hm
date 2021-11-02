@@ -1,0 +1,84 @@
+@media screen and (max-width: 375px) {
+    .header {
+        width: 375px;
+    }
+
+    .container {
+        padding-top: 5px;
+    }
+
+    .container-fluid {
+        padding-top: 0;
+        border: none;
+    }
+
+    .navbar-brand img {
+        width: 40px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-left: 28px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+        margin-left: 28px;
+    }
+
+    .header__title p {
+        margin-left: 28px;
+    }
+
+
+    .header__title p::before,
+    .header__title p::after {
+        display: none;
+    }
+
+    .header__main_btn {
+        margin-left: 28px;
+        margin-top: 20px;
+    }
+
+    .header__father {
+        flex-direction: column;
+        top: 698px;
+        row-gap: 14px;
+        left: -120px;
+    }
+
+    .header__father img {
+        width: 90px;
+        height: 83px;
+    }
+
+    .header__father-box {
+        width: 290px;
+        height: 276px;
+        padding-top: 5px;
+    }
+
+    .header__father-box h5 {
+        font-size: 20px;
+    }
+
+    .header__father-box p {
+        font-size: 18px;
+    }
+}
