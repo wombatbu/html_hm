@@ -303,6 +303,10 @@
         overflow: hidden;
     }
 
+    .mainThree{
+        width: 320px;
+    }
+
     .mainThree__top {
         width: 310px;
         column-gap: 10px
