@@ -1,10 +1,12 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
     .header {
         height: 34px;
+        width: 320px;
+        margin: 0 auto;
     }
 
     .headerOne {
-        width: 320px;
+        width: 310px;
     }
 
     .headerOne__blockOne-box img {
@@ -31,6 +33,7 @@
 
     .headerTwo {
         height: 155px;
+        width: 320px;
     }
 
     .headerTwo__top {
@@ -38,6 +41,8 @@
         height: 40px;
         display: flex;
         align-items: center;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
 
@@ -73,6 +78,7 @@
         align-items: end;
         height: 40px;
         margin-top: -30px;
+        margin-right: 6px;
     }
 
     .headerTwo__top-watsapM {
@@ -132,6 +138,7 @@
     .headerTwo__bottom-button {
         width: 50px;
         height: 50px;
+        margin-left: 2px;
     }
 
     .headerTwo__bottom-buttonSmall-line {
@@ -149,6 +156,7 @@
 
     .headerTwo__bottom-search {
         width: 240px;
+        margin-right: 2px;
     }
 
     .headerTwo__bottom-searchLine {
@@ -168,15 +176,15 @@
     .mainOne {
         width: 320px;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         row-gap: 20px;
     }
 
     .mainOne__block1 {
         background: url("Image/bg.png");
-        width: 100%;
-        height: 195px;
-        padding: 10px 10px;
+        width:300px;
+        height: 190px;
+        padding: 5px 5px;
         border-radius: 10px;
         justify-content: space-between;
         align-items: start;
@@ -184,6 +192,7 @@
 
     .mainOne__block1-left {
         row-gap: 25px;
+        width: 135px;
     }
 
     .mainOne__block1-leftText {
@@ -220,12 +229,12 @@
     }
 
     .absoluteB3 {
-        left: 130px;
-        top: 185px;
+        left: 120px;
+        top: 175px;
     }
 
     .mainOne__block1-right img {
-        width: 140px;
+        width: 130px;
         height: 120px;
     }
 
@@ -257,14 +266,67 @@
         display: none;
     }
 
-    .mainTwo {
+    .mainOne__block2{
         width: 320px;
+    }
+
+    .mainOne__block2-top{
+        width: 310px;
+    }
+
+    .mainOne__block2-bottom {
+        width: 310px;
+    }
+
+    .mainOne__block2-topPrice{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mainOne__block2-topPrice span{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .mainOne__block2-bottomPrice{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mainOne__block2-bottomPrice span{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .mainTwo {
+        width: 310px;
         overflow: hidden;
     }
 
     .mainThree__top {
-        column-gap: 10px;
-        overflow: hidden;
+        width: 310px;
+        column-gap: 10px
+    }
+
+    .mainThree__top-button1 {
+        width: 200px;
+        height: 50px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mainThree__top-button2 {
+        width: 90px;
+        height: 50px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .mainThree__top-button3 {
+        width: 180px;
+        height: 50px;
+        font-size: 12px;
+        line-height: 14px;
     }
 
     .mainTree__midle {
@@ -273,19 +335,20 @@
     }
 
     .mainThree__midle-top {
-        width: 320px;
+        width: 305px;
         flex-wrap: wrap;
         row-gap: 125px;
+        align-items: center;
     }
 
     .mainThree__midle-topBox {
-        width: 150px;
+        width: 140px;
         height: 220px;
         row-gap: 0;
     }
 
     .mainThree__midle-topBox img {
-        width: 150px;
+        width: 140px;
         height: 127px;
     }
 
@@ -351,7 +414,7 @@
     }
 
     .mainTree__bottom {
-        width: 320px;
+        width: 310px;
         margin-top: 65px;
     }
 
@@ -367,6 +430,9 @@
     .footer__text {
         width: 320px;
     }
+    .footer__white{
+        width: 320px;
+    }
 
     .footer__white-blocks {
         width: 320px;
@@ -379,16 +445,16 @@
     }
 
     .footer__black {
-        width: 420px;
-        margin: 80px -40px;
+        width: 320px;
+        margin: 0 auto;
         height: 1400px;
     }
 
     .footer__black-main {
-        width: 320px;
+        width: 300px;
         flex-direction: column;
         row-gap: 25px;
-        margin-right: 70px;
+        margin-right: 50px;
         margin-top: 20px;
     }
 
@@ -469,7 +535,7 @@
     }
 
     .footer__black-under {
-        width: 320px;
+        width: 300px;
         font-size: 12px;
         line-height: 14px;
     }
